@@ -14,9 +14,9 @@ function Page() {
     setItems((items) => ({ ...items, contadorB: items.contadorB + 1 }))
   }
 
- /*  const malA = ()=>{
+  const malA = ()=>{
     setItems((items) => ({ contadorA: items.contadorA + 1 }))
-  } */
+  }
 
 
 
@@ -29,8 +29,8 @@ function Page() {
       <button onClick={sumarB}> Sumar B </button>
       <p>{items.contadorB}</p>
 
-    {/*   <button onClick={malA}> Sumar A </button>
-      <p>{items.contadorA}</p> */}
+      <button onClick={malA}> Sumar A </button>
+      <p>{items.contadorA}</p>
 
     </div>
   )
